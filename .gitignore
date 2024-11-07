@@ -1,22 +1,17 @@
 # Python bytecode files
 __pycache__/
 *.pyc
-*.pyo
 
-# Virtual environment directories
+# Virtual environment folder (if you're using one)
 venv/
 env/
-.venv/
 
-# IDE-specific files
-.idea/
-*.iml
+# Environment variables file (if you're storing secret keys or credentials here)
+.env
 
-# Flask-specific files
+# Flask specific
 instance/
-*.db
 
-# Docker-related files
-Dockerfile
-docker-compose.yml
-index.json  # If you want to avoid pushing data files like `index.json`
+# Other unwanted files
+*.db
+*.log
