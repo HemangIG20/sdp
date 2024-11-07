@@ -1,0 +1,22 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment directories
+venv/
+env/
+.venv/
+
+# IDE-specific files
+.idea/
+*.iml
+
+# Flask-specific files
+instance/
+*.db
+
+# Docker-related files
+Dockerfile
+docker-compose.yml
+index.json  # If you want to avoid pushing data files like `index.json`
